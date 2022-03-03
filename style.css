@@ -9,6 +9,12 @@
     width: 60%;
     margin: 0 auto;
 }
+
+.clearfix{
+    content: '';
+    display: table;
+    clear: both;
+}
 /* /GENERAL */
 
 
@@ -28,19 +34,39 @@ header section.immaginona{
 
 
 /* MAIN */
+main{
+    height: 35vh;
+    margin: 10px;
+    background-color: rgb(0, 135, 255);
+}
 
+main section{
+    background-color: rgb(171, 207, 231);
+    margin-bottom: 10px;
+}
+
+main section.riga{
+    height: 10vh;
+}
+
+main section.colonna{
+    float: left;
+    height: 30vh;
+}
+
+main section.colonna.laterale{
+    width: 25%;
+}
+
+main section.colonna.centrale{
+    width: calc(50% - 20px);
+    margin: 0 10px;
+}
 /* /MAIN */
 
 
 /* FOOTER */
-
+footer{
+    background-color: rgb(136, 1, 254);
+}
 /* /FOOTER */
-
-/* 
-    Colori
-    
-    
-    rgb(171, 207, 231);
-    rgb(0, 135, 255);
-    rgb(136, 1, 254);
-*/
