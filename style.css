@@ -4,11 +4,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container{
+    width: 60%;
+    margin: 0 auto;
+}
 /* /GENERAL */
 
 
 /* HEADER */
+header section.banner{
+    background-color: rgb(229, 121, 230);
+    height: 15vh;
+    margin-bottom: 30px;
+}
 
+header section.immaginona{
+    background-color: rgb(225, 214, 122);
+    height: 35vh;
+    margin-bottom: 30px;
+}
 /* /HEADER */
 
 
@@ -20,3 +35,12 @@
 /* FOOTER */
 
 /* /FOOTER */
+
+/* 
+    Colori
+    
+    
+    rgb(171, 207, 231);
+    rgb(0, 135, 255);
+    rgb(136, 1, 254);
+*/
