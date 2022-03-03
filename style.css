@@ -6,8 +6,8 @@
 }
 
 .container{
-    width: 60%;
-    margin: 0 auto;
+    width: 45%;
+    margin: 0 auto 5px;
 }
 
 .clearfix{
@@ -15,28 +15,29 @@
     display: table;
     clear: both;
 }
+
+.spazio{
+    margin-bottom: 20px;
+}
 /* /GENERAL */
 
 
 /* HEADER */
 header section.banner{
     background-color: rgb(229, 121, 230);
-    height: 15vh;
-    margin-bottom: 30px;
+    height: 10vh;
 }
 
 header section.immaginona{
     background-color: rgb(225, 214, 122);
-    height: 35vh;
-    margin-bottom: 30px;
+    height: 30vh;
 }
 /* /HEADER */
 
 
 /* MAIN */
 main{
-    height: 35vh;
-    margin: 10px;
+    height: 40vh;
     background-color: rgb(0, 135, 255);
 }
 
@@ -46,20 +47,20 @@ main section{
 }
 
 main section.riga{
-    height: 10vh;
+    height: 5vh;
 }
 
 main section.colonna{
     float: left;
-    height: 30vh;
+    height: 35vh;
 }
 
 main section.colonna.laterale{
-    width: 25%;
+    width: 20%;
 }
 
 main section.colonna.centrale{
-    width: calc(50% - 20px);
+    width: calc(60% - 20px);
     margin: 0 10px;
 }
 /* /MAIN */
@@ -68,5 +69,12 @@ main section.colonna.centrale{
 /* FOOTER */
 footer{
     background-color: rgb(136, 1, 254);
+    height: 5vh;
+    text-align: center;
+}
+
+footer span::after{
+    content: '\2665';
+    color: red;
 }
 /* /FOOTER */
