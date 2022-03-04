@@ -23,12 +23,12 @@
 
 
 /* HEADER */
-header section.banner{
+header div.banner{
     background-color: rgb(229, 121, 230);
     height: 10vh;
 }
 
-header section.immaginona{
+header div.jumbotron{
     background-color: rgb(225, 214, 122);
     height: 30vh;
 }
@@ -41,25 +41,25 @@ main{
     background-color: rgb(0, 135, 255);
 }
 
-main section{
+main div{
     background-color: rgb(171, 207, 231);
     margin-bottom: 10px;
 }
 
-main section.riga{
+main div.riga{
     height: 5vh;
 }
 
-main section.colonna{
+main div.colonna{
     float: left;
     height: 35vh;
 }
 
-main section.colonna.laterale{
+main div.colonna.laterale{
     width: 20%;
 }
 
-main section.colonna.centrale{
+main div.colonna.centrale{
     width: calc(60% - 20px);
     margin: 0 10px;
 }
